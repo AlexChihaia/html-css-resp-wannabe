@@ -129,8 +129,60 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
 
+
+@media screen and (max-width:1160px) {
+
+    .site-header {
+        width: 1160px;
+        display: flex;
+        justify-content: center;
+    }
+
+    h1,
+    h2,
+    {
+    width: 1160px;
+}
+
+.steps {
+    width: 100%
+}
+
+.container {
+    width: 1160px;
+    margin: 0 auto;
+}
+
+body {
+    width: 1160px;
+    margin: 0 auto;
+}
+
+main {
+    width: 1160px;
+    margin: 0 auto;
+}
+
+.col {
+    padding: 0px;
+    max-width: 1160px;
+}
+
+section {
+    max-width: 1160px;
+}
+
+.row {
+    max-width: 1160px;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+}
+
 @media screen and (max-width:768px) {
     .site-header {
+        width: 768px;
         display: flex;
         justify-content: center;
     }
@@ -139,7 +191,7 @@ img {
     h1,
     h2,
     {
-    width: 768pxx;
+    width: 768px;
 }
 
 h3 {
@@ -195,7 +247,18 @@ section {
 
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width:480px) {
+
+    .site-header {
+        width: 760px;
+        display: flex;
+        justify-content: center;
+    }
+
+    h1 {
+        width: 480xpx;
+    }
+
 
     body {
         width: 480px;
@@ -215,13 +278,12 @@ section {
         justify-content: center;
     }
 
-    h1,
     h2,
     h3 {
-        max-width: 480px;
+
+        padding-top: 25px;
         text-align: center;
         margin: 0 auto;
-        padding-top: 25px;
     }
 
     .container {
@@ -234,7 +296,7 @@ section {
     }
 
     .card {
-        width: 250px;
+        width: 480px;
         align-self: center;
     }
 
